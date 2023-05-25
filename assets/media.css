@@ -1,0 +1,190 @@
+/* for samsung fold */
+@media only screen and (max-width: 300px){
+  header nav{
+    flex-direction: column;
+  }
+  h1{
+    font-size: 25px !important;
+  }
+  a{
+    font-size: 12px !important;
+  }
+  p{
+    font-size: 15px !important;
+  }
+   /* index */
+   .card-group{
+    flex-wrap: wrap;
+   }
+   .card-cover{
+    width: 224px !important;
+   }
+   .card-text-main{
+    width: 224px !important;
+   }
+   /* about */
+   .about-text h1{
+    font-size: 20px !important;
+   }
+   .about-us{
+    font-size: 10px !important;
+   }
+   .team-banner-1{
+    flex-wrap: wrap;
+    padding: 10px !important;
+   }
+   .img-contact{
+    width: 200px !important;
+    margin: 0 !important;
+   }
+   /* contact */
+   .about-team{
+    flex-wrap: wrap;
+   }
+   .about-left{
+    width: auto !important;
+   }
+   .about-left form h1{
+    font-size: 20px;
+   }
+   .about-left form .inputs{
+    width: 160px !important;
+   }
+   .map-1{
+    width: 224px !important;
+    height: 224px !important;
+   }
+   /* footer */
+   footer{
+    font-size: 1px !important;
+   }
+
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 300px) {
+  p{
+    font-size: 10px;
+  }
+  /* home */
+  header nav{
+    flex-direction: column;
+  }
+  .team-title{
+    font-size: 20px !important;
+  }
+  .card-group{
+    flex-wrap: wrap;
+    /* width: 100% !important; */
+  }
+  .card-cover{
+    width: 100% !important;
+    height: 400px !important;
+  }
+  .card-text-main{
+    width: auto !important;
+  }
+  /* about */
+  .team-banner-1{
+    flex-direction: column;
+  }
+  .img-contact{
+    width: 280px !important;
+  }
+  /* contact */
+  .about-team{
+    flex-direction: column ;
+  }
+  .map-1{
+    width: auto !important;
+    height: 300px !important;
+    margin: 0 !important;
+    margin-top: 20px !important;
+  }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .card-group{
+    flex-wrap: wrap;
+  }
+  .card-text-main{
+    width: 300px !important;
+  }
+  /* about */
+  .img-contact{
+    width: auto !important;
+  }
+  /* contact */
+  .about-team{
+    flex-direction: column;
+  }
+  .map-1{
+    width: auto !important;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  p{
+    font-size: 15px !important;
+  }
+  .team-title{
+    font-size: 30px !important;
+  }
+  /* about */
+  .team-banner-1{
+    flex-direction: column;
+  }
+  /* about */
+  .img-contact{
+    width: auto !important;
+  }
+   /* contact */
+   .about-team{
+    flex-wrap: wrap;
+  }
+  .map-1{
+    width: 100% !important;
+    margin: 0 !important;
+    margin-top: 20px !important;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  header nav{
+    flex-direction: row;
+  }
+  p{
+    font-size: 20px !important;
+  }
+  /* about */
+  .team-banner-1{
+    flex-direction: row;
+    padding: 0 !important;
+  }
+  .about-image{
+    padding-top: 50px !important;
+  }
+  .about-text{
+    padding: 20px !important;
+    font-size: 12px !important;
+  }
+  /* contact */
+  .team-members-1{
+    flex-direction: column;
+  }
+  .about-team{
+    flex-direction: row;
+    }
+   .map-1{
+    width: 600px !important;
+    height: 425px !important;
+   } 
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}

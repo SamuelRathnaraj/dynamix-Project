@@ -1,0 +1,25 @@
+:root{
+    --primary-color: red;
+    --secondary-color: black;
+    --light-color: white;
+    --grey-color:lightgray;
+    --font-style:'Black Ops One', cursive;
+    
+}
+
+/* :root{
+    --primary-color: rgb(196, 70, 210);
+    --secondary-color: black;
+    --light-color: white;
+    --grey-color:lightgray;
+    --font-style:'Black Ops One', cursive;
+} */
+
+/* :root{
+    --primary-color: rgb(14, 1, 3);
+    --secondary-color: rgb(255, 255, 255);
+    --light-color: black;
+    --grey-color:lightgray;
+    --font-style:'Black Ops One', cursive;
+
+} */
